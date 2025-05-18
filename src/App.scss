@@ -1,0 +1,1221 @@
+@media only screen  and (max-width: 2560px) {
+ .appdownloaddiv_container{
+    display: none;
+ }
+ a {
+  text-decoration: underline;
+  color: 'blue';
+}
+
+//  landing page
+.nav_btn_div{
+  display: flex;
+  gap: 2rem;
+}
+.landing_login_btn1{
+  border: 0;
+  background-color: #F0F0F0;
+}
+.landing_login_btn2{
+  border: 0;
+  font-family: 'Roboto Slab', serif;
+  background: #008080;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 152px;
+  height: 48px;
+  color: white;
+}
+.carosalimag1{
+  width: 100%;
+  height: 100%;
+}
+// .carosal{
+//   position: relative;
+//   display: flex;
+//   width: 100%;
+//   overflow: hidden;
+//   height: 90vh;
+// }
+// .carosalimage_div{
+//   display:flex
+// }
+// .carosalbtn_div{
+//   display: flex;
+//   position: absolute;
+//   top:0;
+//   justify-content: space-between;
+//   inset: 0;
+//   align-items: center;
+//   padding-left: 1rem;
+//   padding-right: 1rem;
+//   transition: transform 0.5s ease-in-out;
+//   button{
+//     border: 0;
+//     background-color: #FFFFFF;
+//     border-radius: 50%;
+//     width: 3rem;
+//     height: 3rem;
+//   }
+//   svg{
+//     font-size: 2rem;
+//   }
+//   img{
+//     width: 100%;
+//   }
+// }
+// .carosaldot_div{
+//   display: flex;
+//   gap: 0.5rem;
+//   position: absolute;
+//   left: 0;
+//   right: 0;
+//   bottom: 5rem;
+//   justify-content: center;
+//   .carosalindexdot{
+//     width: 0.8rem;
+//     height:  0.8rem;
+//     border-radius: 50%;
+//     background-color: #008080;
+//     transition: all;
+//     padding: 2px;
+//   }
+//   .carosalnotindexdot{
+//     width: 0.8rem;
+//     height:  0.8rem;
+//     border-radius: 50%;
+//     background-color: white;
+//     transition: all;
+//     opacity: 1;
+//   }
+// }
+// .carosallogo_div{
+//   position: absolute;
+//   height: 100%;
+//   left: 10%;
+//   display: flex;
+//   align-items: center;
+//   flex-direction: column;
+//   justify-content: center;
+//   h2{
+//     color: black;
+//     text-decoration: solid ;
+//     font-size: 50px;
+//     font-family: 'Roboto Slab';
+//     font-style: normal;
+//   }
+// }
+
+.privacy-policy-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.privacy-policy-container h1 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #0073e6;
+}
+
+.privacy-policy-container h2 {
+  font-size: 1.5em;
+  margin-top: 20px;
+  color: #005bb5;
+}
+
+.privacy-policy-container h3 {
+  font-size: 1.2em;
+  margin-top: 15px;
+  color: #004080;
+}
+
+.privacy-policy-container p {
+  margin: 10px 0;
+}
+
+.privacy-policy-container ul {
+  margin-left: 20px;
+  list-style: disc;
+}
+.guidance-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.guidance-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #0073e6;
+}
+
+h2 {
+  color: #0056b3;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #004085;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+ol {
+  margin-left: 20px;
+}
+
+.platform-section {
+  margin-bottom: 20px;
+}
+
+em {
+  font-style: italic;
+  color: #555;
+}
+
+.carosal { 
+  position: relative;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  height: 90vh;
+}
+
+.carosalimages-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.carosalimage_div {
+  flex: 0 0 100%;
+  height: 100%;
+}
+
+.carosalimage_div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carosalbtn_div {
+  display: flex;
+  position: absolute;
+  top: 0;
+  justify-content: space-between;
+  inset: 0;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.carosalbtn_div button {
+  border: 0;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.carosalbtn_div svg {
+  font-size: 2rem;
+}
+
+.carosaldot_div {
+  display: flex;
+  gap: 0.5rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 5rem;
+  justify-content: center;
+}
+
+.carosalindexdot {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background-color: #008080;
+  transition: all 0.3s ease;
+}
+
+.carosalnotindexdot {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background-color: white;
+  transition: all 0.3s ease;
+  opacity: 0.5;
+}
+
+.aboutlaafi{
+ width: 100%;
+ text-align: center;
+ padding: 2rem;
+ h2{
+  font-family: 'Roboto Slab';
+  color: black;
+  font-size: 50px;
+ }
+ p{
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: -0.011em;
+}
+}
+.whatseoffersecition1_main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+  .offersec1card{
+    position: relative;
+    min-width: 25rem;
+    height: 15rem;
+    color: white;
+  h4{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+  }
+  svg{
+    position: absolute;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    right: 1rem;
+    top: 1rem;
+    transition: 0.2s ease-in;
+  }
+  &:hover{
+    svg{
+      transform: scale(1.5);
+    }
+  }
+}
+.offersec2card{
+  position: relative;
+  min-width: 18.5rem;
+  height: 8rem;
+  color: white;
+  h4{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+  }
+  svg{
+    position: absolute;
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    right: 1rem;
+    top: 1rem;
+    transition: 0.2s ease-in;
+  }
+  &:hover{
+    svg{
+      transform: scale(1.5);
+    }
+  }
+}
+.onlineconsutation{
+  background: linear-gradient(263deg, #00C6FF 13.74%, #0072FF 107.65%);
+  box-shadow: -1px 2px 4px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  transition: background 0.5s ease-in-out, transform 0.5s ease-in-out;
+  &:hover{
+    background: linear-gradient(258.19deg, #00C6FF -5.56%, #0072FF 64.8%);
+  }
+}
+.bloodbank{
+  background: linear-gradient(259.43deg, #B71C1C 30.75%, #880E4F 112.29%);
+  box-shadow: -1px 2px 4px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  transition: background 0.5s ease-in-out, transform 0.5s ease-in-out;
+  &:hover{
+   background: linear-gradient(266.28deg, #B71C1C 0.32%, #880E4F 80.7%);
+  }
+}
+.secureauth{
+  background: linear-gradient(261.45deg, #006666 11.05%, #004C4C 97.89%);
+/* input shadow */
+  box-shadow: -1px 2px 4px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  transition: background 0.5s ease-in-out, transform 0.5s ease-in-out;
+  &:hover{
+    background: linear-gradient(261.45deg, #006666 11.05%, #004C4C 52.21%);
+  }
+}
+.pateintmana{
+  background: linear-gradient(259.07deg, #00C6FF 2.02%, #0072FF 102.15%);
+  box-shadow: -1px 2px 4px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.labs{
+  background: linear-gradient(259.61deg, #E0F7FA -11.52%, #008080 94.81%);
+  box-shadow: -1px 2px 4px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.scheduling{
+  background: linear-gradient(255.31deg, #008080 -7.02%, #00796B 95.24%);
+  box-shadow: -1px 2px 4px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.remotemonitor{
+  background: linear-gradient(259.07deg, #FE8C00 2.02%, #F83600 102.15%);
+  box-shadow: -1px 2px 4px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.housekeeping{
+  background: linear-gradient(81.71deg, #8E44AD -1.45%, rgba(155, 89, 182, 0.6) 102.25%);
+  box-shadow: -1px 2px 4px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.expertdocdiv{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  
+}
+.expertdocsubdiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 2rem;
+  div{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    img{
+      width: 10rem;
+      height: 10rem;
+      border-radius: 50%;
+    }
+  }
+  h5{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.011em;
+}
+}
+.latestcontainerdiv{
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  background: #FFFFFF;
+  box-shadow: inset 2px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  margin-top: 2rem;
+  padding: 3rem;
+  gap: 1rem;
+  .latestbtndiv{
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    
+  }
+  .latestcontentdiv{
+    flex-grow: 2;
+    background: #F0F0F0;
+    box-shadow: -1px 2px 4px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    min-height: 80vh;
+    width: 85%;
+    overflow: auto;
+    position: relative;
+    padding: 1rem;
+    div{
+      position: absolute;
+      bottom: 1rem;
+      right: 1rem;
+    }
+  }
+  h3{
+    font-family: 'Roboto Slab', serif;;
+  }
+}
+.depbutton{
+  font-family: 'Roboto Slab', serif;;
+  background: #008080;
+  box-shadow: -4px 4px 4px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  min-width: 10rem;
+  min-height: 4rem;
+  color: white;
+  border: 0;
+}
+.ourproduct{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.ourproduct_img{
+  background: #D9D9D9;
+  border-radius: 20px;
+  width: 10rem;
+  height: 10rem;
+}
+.ourproductsubdiv{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.footer_container{
+  height: 90vh;
+  width: 100%;
+  background: #008080;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 25px 25px 0px 0px;
+  .footer_logdiv{
+    position: relative;
+    
+    img{
+      width: 20%;
+    }
+  }
+  p{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -0.011em;
+  }
+  a{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -0.011em;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+}
+.footersub2div_main{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: space-around;
+}
+.footersub2div1{
+  display: flex;
+  flex-direction: column;
+  h4{
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+}
+.footersub2div2{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footersub2{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footerlinkdiv{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.connectionlink{
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  div{
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+.footericon{
+  font-size: 3rem;
+}
+.footerhrline{
+  height: 0.05rem;
+  width: 100%;
+  background-color: white;
+}
+.netsrishtilogo{
+  width: 15%;
+}
+.terms-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.terms-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #1a73e8;
+}
+
+.terms-updated {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.terms-content h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #1a73e8;
+}
+
+.terms-content p {
+  margin: 10px 0;
+}
+
+.terms-content ul {
+  margin: 10px 20px;
+  list-style-type: disc;
+}
+
+.terms-content a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.terms-content a:hover {
+  text-decoration: underline;
+}
+.support-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.support-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #1a73e8;
+  text-align: center;
+}
+
+.support-content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.support-section h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #1a73e8;
+}
+
+.support-section p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.support-section a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.support-section a:hover {
+  text-decoration: underline;
+}
+
+
+
+//  
+ .template_card_container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 1rem;
+ }
+ .template_card{
+    width: 15%;
+    height: 20%;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    img{
+        height: 5rem;
+        width: 100%;
+        border-radius: 5px;
+    }
+ }
+ .templateoption_container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 3px;
+    max-width: 10rem;
+    div{
+        background-color: #F0F0F0;
+        display: flex;
+        border-radius: 5px;
+    }
+    input{
+        width: 5rem;
+    }
+ }
+ .templatename_div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+ }
+//  docdiagnosis
+.additionanlInputBtnDiv{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1rem;
+    button{
+        border: 0;
+        min-width: 5rem;
+        min-height: 3rem;
+        border-radius: 5px;
+    }
+}
+.docmypatient{
+    height: 100%;
+  }
+  .docmypatient h4{
+   display: flex;
+   justify-content: center;
+  }
+  .docmypatient_content2main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .docmypatient_card{
+    background: #FFFFFF;
+    width: 11rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: -2px 4px 8px 5px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transform: scale(1);
+  }
+  .docmypatient_card div{
+    position: relative;
+  }
+  .vedioicon{
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    color: green;
+  }
+  .docmypatient_content2main button{
+    position: absolute;
+    top: 0;
+  }
+  .docmypatient_card:hover{
+    transform: scale(1.1);
+  }
+  .docmypatient_content2main img{
+    width: 100%;
+    height: 20vh;
+  }
+  .docmypatient_content2main h6{
+    display: flex;
+    justify-content: center;
+  }
+  .DocScheSlots_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* overflow-y: scroll; */
+  }
+  .DocScheSlots h4{
+    display: flex;
+    justify-content: center;
+  }
+  .docScheduleCard{
+    background: #FFFFFF;
+    width: 11rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: -2px 4px 8px 5px rgba(0, 0, 0, 0.25);
+  }
+  .docScheduleCardheaderdiv{
+    height: 15vh;
+    background-color: rgb(209, 203, 203);
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  .docScheduleCardheaderdiv p{
+    margin: 0px;
+    padding: 0px;
+  }
+  .docScheduleCard 
+  .fillslotcolor{
+    height: 12px;
+    width: 12px;
+    border-radius: 12px;
+    background-color: #008080;
+    overflow-y: hidden;
+  }
+  .emptyslotcolor{
+    height: 12px;
+    width: 12px;
+    border-radius: 12px;
+    background-color: red;
+    overflow-y: hidden;
+  }
+  /* SLOTBOOKING */
+  .slotbooking{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  .slotavilablebtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 1rem;
+    cursor: pointer;
+    border-color: #008080;
+  }
+  .slotemptybtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: red;
+  }
+  .slotavilablebtn{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  }
+  .slotbooking_conatiner2 div{
+    display: flex;
+  }
+  
+  /* SLOTTIMEWINDOW */
+  .DocScheTimeWindow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+  }
+  .opentimebtn{
+    background: rgba(120, 120, 128, 0.12);
+    border-radius: 6px;
+    border: 0;
+    color:#008080 ;
+  }
+  .cancelbtn{
+    box-shadow: -1px 2px 4px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    background: #F0F0F0;
+    border: 1px solid #B0B0B0;
+    color: black;
+    margin-top: 2rem;
+  }
+  .selectslobtn{
+    background: #008080;
+    box-shadow: -1px 2px 4px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    border: 0;
+    color: white;
+    margin-top: 2rem;
+  }
+  .DocScheTimeWindow_contentdiv{
+    display: flex;
+    gap: 2rem;
+  }
+  .DocScheTimeWindow_contentdiv div{
+    position: relative;
+  }
+  .DocScheTimeWindow_contentdiv svg{
+    position: absolute;
+    z-index: 4;
+    top: 3px;
+    right: 140px;
+  }
+  .DocScheTimeWindow_contentdiv select{
+    width: 10rem;
+    text-align: center;
+    position: relative;
+    border: 0;
+    border-radius: 3rem;
+  }
+  .togglebuttongroup{
+    height: 2rem;
+    margin-left: 1rem;
+  }
+  .docsplittime{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+  .docsplittime h2{
+    color: black;
+  }
+  .docsplittime div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    max-width: 35rem;
+    gap: 1rem;
+  }
+  .doctimearrowleft{
+    position: absolute;
+    left: -11rem;
+    border: 0;
+  }
+  .docsplittime p{
+    margin: 0px;
+  }
+  .docsplittime_timeslotdiv{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .no_apponmentheading{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  //admin 
+  .availabledoctor{
+    height: 100%;
+  }
+  .availbledoctoradmin_maindiv{
+    padding-top: 90px;
+    margin-left: 4rem;
+  }
+  
+}
+@media only screen  and (max-width: 1180px) {
+.content2_imagediv img{
+    width: 15rem;
+}
+// @media only screen  and (max-width: 1086px) {
+//   .content2_main{
+//     max-width:100%;
+// }
+// }
+}
+@media only screen  and (max-width: 991px) {
+    .appdownloaddiv_container{
+        display: none;
+     }
+    .login_subdiv1{
+        display: none;
+        .loginlogo{
+            display: none;
+        }
+    }
+    .footersub2div2{
+      width: 40%;
+    }
+   
+}
+
+@media only screen and (max-width: 767px) {
+    .appdownloaddiv_container{
+        width: 100%;
+        background-color: white;
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+        .appdownloaddiv{
+            display: flex;
+            justify-content: space-around;
+            flex-grow: 1;
+            max-width: 24rem;
+            padding: 5px;
+            img{
+                width: 3rem;
+                height: 3rem;
+            }
+            button{
+                border: 0;
+                background-color: #008080;
+                color: white;
+                border-radius: 5px;
+            }
+        }
+     }
+    .login_subdiv1{
+        display: none;
+        .loginlogo{
+            display: none;
+        }
+    } 
+    .login_subdiv2{
+        .login_main_container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .logintypesel_div{
+            width: 400px;
+        }
+        .logincontent_div{
+            width: 400px;
+        }
+    }
+    .content2_main{
+          max-width:100%;
+      }
+    //doctor navpad
+    .docdash_content1_main{
+        width: 100%;
+    }
+    .menu_icon{
+        display: block;
+    }
+    .menu_div{
+        display: none;
+    }
+    .user_div{
+        display: none;
+    }
+    //landingpage
+    .nav_btn_div{
+      display: none;
+    }
+}
+@media only screen and (max-width: 709px) {
+  .footersub2div2{
+    width: 50%;
+  }
+  
+  // doctor navpad
+
+
+}
+@media only screen and (max-width: 479px) {
+    .login_subdiv1{
+        display: none;
+        .loginlogo{
+            display: none;
+        }
+    }
+    .footersub2div2{
+      width: 100%;
+    }
+    // doctor navpad
+ 
+
+}
+@media only screen and (max-width: 466px) {
+    .appdownloaddiv_container{
+        justify-content: end;
+        .appdownloaddiv{
+            justify-content: center;
+            // p{
+            //     display: none;
+            // }
+        }
+    }
+    // doctor navpad
+ 
+
+}
+
+.download-links-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.content-container {
+  flex: 2;
+  text-align: center;
+}
+
+.content-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.content-container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.app-store-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  margin-top: 20px;
+}
+
+.app-store-links img {
+  width: 150px; 
+  height: auto;
+  cursor: pointer;
+}
+.patient-name {
+  font-family: 'Roboto Slab', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  color: #008080;
+  width: 100%;
+}
+.methodcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+/* Toggle buttons for input methods */
+.input-toggle-btn {
+  padding: 0.8rem 1.2rem;
+  border-radius: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.input-toggle-btn.active {
+  background: #008080;
+  color: #ffffff;
+  box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.input-toggle-btn:not(.active) {
+  background: #ffffff;
+  color: #008080;
+  box-shadow: inset 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* Email input field container */
+.logincontent_div_emailinput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Email input field */
+.logincontent_div_emailinput input {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: inset 2px 4px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Inter', sans-serif;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Focus and hover effects for the email input */
+.logincontent_div_emailinput input:focus,
+.logincontent_div_emailinput input:hover {
+  border: 1px solid #008080;
+  box-shadow: 0 0 5px rgba(0, 128, 128, 0.4);
+  outline: none;
+}
+
