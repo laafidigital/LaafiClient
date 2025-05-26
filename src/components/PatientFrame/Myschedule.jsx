@@ -108,7 +108,7 @@ const Myschedule = (props) => {
     const localDateTime = new Date(combinedDateTime);
     const utcDateTime = localDateTime.toISOString();    
     const options = {
-      key: "rzp_test_p2L7ixWPGijQ8o",
+      key: "rzp_live_fwcUYoyXPoakL8",
       amount: data.Order.Amount,
       currency: "INR",
       name: "Laafi",

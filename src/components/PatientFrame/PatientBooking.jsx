@@ -426,7 +426,7 @@ const handlepayment = (data) => {
   const utcDateTime = localDateTime.toISOString();
   const patientEmail = localStorage.getItem('patientEmail') || inputfeilddata.email;
   var options = {
-      key: "rzp_test_p2L7ixWPGijQ8o",
+      key: "rzp_live_fwcUYoyXPoakL8",
       amount: inputfeilddata.price,
       currency: "INR",
       name: "Laafi",

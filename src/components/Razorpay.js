@@ -1,4 +1,4 @@
 export default{
     testkey:'rzp_test_p2L7ixWPGijQ8o',
-    livekey:''
+    livekey:'rzp_live_fwcUYoyXPoakL8'
 }
